@@ -4,13 +4,6 @@
 
 ## 初始化
  1. npm i 
- 2. 配置husky中的pre-commit钩子
- 参照
-  #!/usr/bin/env sh
-  . "$(dirname -- "$0")/_/husky.sh"
-
-  #npx --no-install commitlint --edit $1
-  npm run lint-staged
 ## 测试环境
  npm run dev
 
