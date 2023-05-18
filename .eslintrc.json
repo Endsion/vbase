@@ -19,6 +19,7 @@
         "extraFileExtensions": [".vue"],
         "sourceType": "module"
     },
+    "ignorePatterns": ["*.md", "*.json"],
     "plugins": [
         "vue",
         "@typescript-eslint"
