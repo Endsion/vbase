@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-const a_b = 'v'
 
 defineProps<{ msg: string }>()
 
