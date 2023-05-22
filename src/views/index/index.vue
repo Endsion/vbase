@@ -11,10 +11,11 @@
 <script setup>
 import { useCounterStore } from '@/store/counter'
 import { storeToRefs } from 'pinia'
+
 const counterStore = useCounterStore()
 const { count } = storeToRefs(counterStore)
-console.log(count)
 const text = 'index'
+
 const addCount = () => {
   ++counterStore.count
   counterStore.$patch({ count: ++counterStore.count })
