@@ -23,7 +23,7 @@ const router = createRouter({
 
 /** 权限控制，动态路由添加等 */
 router.beforeEach((to, from, next) => {
-  console.log(to, from, 111)
+  // console.log(to, from, 111)
   next()
 })
 export default router

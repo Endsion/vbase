@@ -13,6 +13,7 @@
     "lint:style": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/"
   },
   "dependencies": {
+    "pinia": "^2.1.3",
     "vue": "^3.2.47",
     "vue-router": "^4.2.1"
   },
